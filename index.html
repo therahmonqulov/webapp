@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./link/style.css">
+    <title>25-26-27-Dekabr | Miya sirlari</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="text">
+            <div class="main-text-center">
+                <div class="main-text">
+                    <span class="main-text-span2">15-16-17-Aprel | Soat 20:00 da</span>
+                </div>
+            </div>
+            <p class="main-text-p">Davronbek Turdievdan 3 kunlik BEPUL masterklass</p>
+            <p class="main-text-span">MIYA SIRLARI</p>
+            <div class="main-text-h1">
+                <h1>Bu yangi usul orqali o'quvchim 1 kunda 1,280 ta chet tili so'zlarini eslab qoldi. Yangi usulni siz ham o'rganing.</h1>
+            </div>
+            <div class="mobile-img">
+                <img src="./img/main-davronbek.webp" alt="" class="first-main-img">
+            </div>
+            <div class="mobile-text">
+                <button class="show-button">ISHTIROK ETISH</button>
+                <p class="mobile-text-p">BEPUL</p>
+            </div>
+            <div class="main-text-list">
+                <p>Masterklassda siz:</p>
+                <ul>
+                    <li><img src="./img/imgs.webp" alt="">Qanday qilib diqqatni jamlash orqali chalg'imasdan soatlab ishlash va o'qishni</li>
+                    <li><img src="./img/imgs.webp" alt="">Qanday qilib miyaning bor kuchidan foydalanib, dangasalikni yengishni va istalgan maqsadga erishishni</li>
+                    <li><img src="./img/imgs.webp" alt="">Qanday qilib chet tili so'zlarini, kitobdagi ma'lumotlarni tez hamda oson eslab qolishni va xotirangizni 10 barobar kuchaytirishni ko'rib chiqamiz.
+                    </li>
+                </ul>
+            </div>
+            <div class="mobile-text">
+                <button class="show-button">ISHTIROK ETISH</button>
+                <p class="mobile-text-p">BEPUL</p>
+            </div>
+            <div class="main-button">
+                <p>BEPUL</p>
+                <button class="img-button">ISHTIROK ETISH</button>
+            </div>
+        </div>
+
+        <div class="desktop-img">
+            <img src="./img/main-davronbek.webp" alt="" class="first-main-img">
+        </div>
+
+        <!-- form -->
+        <div class="form">
+            <button class="f-button"><i class="fa-solid fa-xmark"></i></button>
+            <div class="form-container">
+                <div class="form-h1">
+                    <h1>Davom etish uchun quyidagi formani to'ldiring.</h1>
+                </div>
+                <form id="form" name="contact-form" novalidate>
+                    <div class="hide-form-div">
+                        <label for="name">Ismingizni kiriting:</label>
+                        <input type="text" id="name" name="name">
+                        <label for="phone">Telefon raqamingiz:</label>
+                        <div class="phone-input">
+                            <img id="flag" src="./img/flags/uz.png" alt="Bayroq">
+                            <select id="country" onchange="updateFlag()">
+                                <option value="UZ" data-maxlength="12">
+                                    (+998) O'zbekistan
+                                </option>
+                                <option value="KRZ" data-maxlength="11">
+                                    (+996) Qirg'iziston
+                                </option>
+                                <option value="TJK" data-maxlength="11">
+                                    (+992) Tojikiston
+                                </option>
+                                <option value="TK"  data-maxlength="11">
+                                    (+993) Turkmaniston
+                                </option>
+                                <option value="KZ" data-maxlength="12">
+                                    (+7) Qozoqiston
+                                </option>
+                                <option value="RU" data-maxlength="13">
+                                    (+7) Rossiya
+                                </option>
+                                <option value="GER" data-maxlength="12">
+                                    (+49) Germaniya
+                                </option>
+                                <option value="TUR" data-maxlength="11">
+                                    (+90) Turkiya
+                                </option>
+                                <option value="BEL" data-maxlength="12">
+                                    (+375) Belarussiya
+                                </option>
+                                <option value="UKI" data-maxlength="12">
+                                    (+380) Ukraina
+                                </option>
+                                <option value="US" data-maxlength="12">
+                                    (+1) AQSH
+                                </option>
+                            </select>
+                            <input type="tel" id="phone" name="phone" placeholder="99-999-99-99"
+                                pattern="\d{2}-\d{3}-\d{2}-\d{2}" maxlength="12">
+                        </div>
+                        <p class="warning-p">❌ Telefon raqam mos emas!</p>
+                        <button type="submit" class="submit-button">DAVOM ETISH</button>
+                    </div>
+                </form>
+                <div class="show-form-div" id="loadingDiv">
+                    <p>Kuting, keyingi sahifa ochilmoqda<span class="dots"></span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="footer-text">
+            <span class="D-name">Davronbek Turdiev</span>
+            <br>
+            <a href="tel:+9989 78 113 19 00"><button>+998978 113 19 00</button></a>
+            <ul>
+                <li>"SUPERMIYA PRODUCTION" MCHJ <br>
+                    Bogʻishamol MFY, Amir Temur shoh ko'chasi <br>
+                    Hisob raqam: 20208000005742456001 Bank: Anorbank AJ INN:311052855 MFO:01183</li>
+                <li>This site or product is not part of or endorsed by Facebook, Google, or any social media platform in
+                    any way FACEBOOK is a trademark of META PLATFORMS, Inc. YOUTUBE and GOOGLE are trademarks of
+                    ALPHABET, Inc.</li>
+            </ul>
+            <p>Barcha huquqlar himoyalangan, 2025.</p>
+        </div>
+    </div>
+
+    <script src="./link/script.js"></script>
+</body>
+
+</html>

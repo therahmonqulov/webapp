@@ -1,0 +1,264 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: "Montserrat", Arial, sans-serif;
+}
+
+.container {
+    position: relative;
+    width: 90%;
+    margin: auto;
+}
+
+@media screen and (min-width: 0px) and (max-width: 299px)  {
+    .main-text-h1 h1 {
+        font-size: 20px;
+    }
+}
+
+/* mobile */
+@media screen and (min-width: 300px) and (max-width: 750px) {
+    body {
+        background-image: url(../img/thank-you-bg.png);
+        background-color: #f4f4f8;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .text {
+        background-color: #fff;
+        border-radius: 15px;
+        margin-top: 50px;
+        margin-bottom: 100px;
+        padding: 50px;
+        text-align: center;
+    }
+    .main-text-h1 h1 {
+        font-size: 23px;
+        margin-bottom: 15px;
+        color: #000;
+    }
+    .main-text-li ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .main-text-list li {
+        line-height: 1.5;
+        font-size: 17px;
+        list-style: none;
+        display: flex;
+        align-items: center;
+        margin-bottom: 25px;
+        color: #000;
+    }
+    .main-text-list li:last-child {
+        margin-bottom: 50px;
+    }
+    .main-text-list img {
+        width: 100%;
+    }
+    .main-button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .main-button button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 320px;
+        padding: 20px 5px;
+        border-radius: 15px;
+        border: none;
+        background-color: #3b84d8;
+        font-size: 16px;
+        font-weight: 600;
+        box-shadow: 0px 5px 0px 0px #2a2929;
+    }
+    .main-button button:hover {
+        cursor: pointer;
+    }
+    .mobile-img {
+        display: flex;
+        justify-content: center;
+    }
+
+    /* footer */
+    .footer {
+        padding: 40px 0px;
+        background-color: #000;
+        font-family: Arial, sans-serif;
+    }
+    .footer-text {
+        color: #fff;
+        font-size: 15px;
+        text-align: center;
+        width: 80%;
+        margin: auto;
+    }
+    .D-name {
+        font-size: 20px;
+    }
+    .footer-text button {
+        font-size: 26px;
+        padding: 15px 10px;
+        text-align: center;
+        font-family: Arial, sans-serif;
+        font-weight: 600;
+        outline: none;
+        background: none;
+        border: none;
+        margin: 15px 0px 0px 0px;
+    }
+    .footer-text button:hover {
+        cursor: pointer;
+    }
+    .footer-text ul li {
+        text-align: center !important;
+    }
+    .footer-text ul li {
+        margin: 15px 0px;
+        list-style: none;
+    }
+    .footer-text p {
+        margin-top: 45px !important;
+        font-size: 14px;
+    }
+
+    .desktop-img {
+        display: none;
+    }
+}
+
+/* desktop */
+@media screen and (min-width: 750px) and (max-width: 1600px) {
+    body {
+        background-image: url("../img/thank-you-bg.png");
+        background-position: center;
+        background-color: #f4f4f8;
+    }
+    .section-1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        height: 100vh;
+    }
+    .text {
+        background-color: #fff;
+        width: 70%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 20px;
+        padding: 70px 0px;
+    }
+    .main-text {
+        margin-bottom: 25px;
+        font-size: 18px;
+        position: relative;
+        height: 35px;
+        display: flex;
+        align-items: center;
+        border: 1px solid red;
+        align-items: center;
+        border-radius: 20px;
+        width: 360px;
+    }
+
+    .main-text-h1 h1 {
+        font-weight: 700;
+        font-size: 40px;
+        margin-bottom: 25px;
+        color: #000;
+        font-size: 34px;
+    }
+    .main-text-list ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .main-text-list li {
+        line-height: 1.6;
+        text-align: center;
+        width: 90%;
+        font-size: 20px;
+        list-style: none;
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+        color: #000;
+    }
+    .main-text-list img {
+        margin: 20px 0px;
+        width: 350px;
+    }
+    .main-button button {
+        font-weight: 700;
+        width: 350px;
+        padding: 25px 0px;
+        border-radius: 15px;
+        border: none;
+        background-color: #3b84d8;
+        font-size: 25px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .main-button button:hover {
+        cursor: pointer;
+    }
+    .img-button:hover {
+        cursor: pointer;
+    }
+
+    /* footer */
+    .footer {
+        padding: 30px 0px;
+        background-color: #000;
+        font-family: Arial, sans-serif;
+    }
+    .footer-text {
+        color: #fff;
+        font-size: 15px;
+        text-align: center;
+        width: 35%;
+        margin: auto;
+    }
+    .D-name {
+        font-size: 30px;
+    }
+    .footer-text button {
+        font-size: 26px;
+        padding: 15px 10px;
+        text-align: center;
+        font-family: Arial, sans-serif;
+        font-weight: 600;
+        outline: none;
+        background: none;
+        border: none;
+        margin: 15px 0px 0px 0px;
+    }
+    .footer-text button:hover {
+        cursor: pointer;
+    }
+    .footer-text ul li {
+        text-align: center !important;
+    }
+    .footer-text ul li {
+        margin: 15px 0px;
+        list-style: none;
+    }
+    .footer-text p {
+        margin-top: 45px !important;
+        font-size: 14px;
+    }
+}
