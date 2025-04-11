@@ -478,13 +478,13 @@ input[type="text"]:focus {
     .text {
         width: 70%;
         position: absolute;
-        bottom: 0%;
+        top: 10%;
         left: 3%;
     }
     .first-main-img {
         position: absolute;
         right: 1%;
-        bottom: -6%
+        top: 10%;
     }
     .first-main-img {
         z-index: -1;
