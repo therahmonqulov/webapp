@@ -29,15 +29,15 @@
         justify-content: center;
     }
     .text {
+        padding: 40px 20px;
         background-color: #fff;
         border-radius: 15px;
         margin-top: 50px;
         margin-bottom: 100px;
-        padding: 40px;
         text-align: center;
     }
     .main-text-h1 h1 {
-        font-size: 23px;
+        font-size: 27px;
         margin-bottom: 15px;
         color: #000;
     }
@@ -48,6 +48,7 @@
         justify-content: center;
     }
     .main-text-list li {
+        padding: 0px 20px;
         line-height: 1.5;
         font-size: 17px;
         list-style: none;
@@ -60,7 +61,8 @@
         margin-bottom: 50px;
     }
     .main-text-list img {
-        width: 100%;
+        margin-bottom: 10px;
+        width: 80%;
     }
     .main-button {
         display: flex;
