@@ -627,7 +627,7 @@ input[type="text"]:focus {
     }
     .footer-text {
         color: #fff;
-        font-size: 15px;
+        font-size: 13px;
         text-align: center;
         width: 35%;
         margin: auto;
@@ -636,6 +636,7 @@ input[type="text"]:focus {
         font-size: 23px;
     }
     .footer-text button {
+        font-weight: 700;
         font-size: 25px;
         padding: 5px 0px;
         text-align: center;
@@ -648,14 +649,14 @@ input[type="text"]:focus {
         cursor: pointer;
     }
     .footer-text ul li {
-        font-size: 13px;
+        font-size: 12px;
         margin: 15px 0px;
         list-style: none;
         text-align: center !important;
     }
     .footer-text p {
         margin-top: 25px !important;
-        font-size: 14px;
+        font-size: 12px;
     }
 
     .img-button:hover {
