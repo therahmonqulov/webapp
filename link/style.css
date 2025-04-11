@@ -468,16 +468,16 @@ input[type="text"]:focus {
         border-radius: 50px;
         box-shadow: 0 5px 0 #660000;
         padding: 25px 100px;
+        margin-bottom: 30px;
     }
     .main-button p {
         font-weight: 700;
         font-size: 35px;
         color: #000;
-        margin: 20px 0px;
+        margin: 25px 0px;
     }
     .text {
-        margin-top: 50px;
-        width: 50%;
+        margin-top: 90px;
     }
     .first-main-img {
         margin-top: 100px;
@@ -612,7 +612,8 @@ input[type="text"]:focus {
 
     /* footer */
     .footer {
-        padding: 30px 0px;
+        margin-top: 20px;
+        padding: 25px 0px;
         background-color: #000;
     }
     .footer-text {
