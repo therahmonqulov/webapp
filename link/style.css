@@ -478,7 +478,7 @@ input[type="text"]:focus {
     .text {
         width: 70%;
         position: absolute;
-        bottom: 1%;
+        bottom: 0%;
         left: 5%;
     }
     .first-main-img {
@@ -487,15 +487,8 @@ input[type="text"]:focus {
         bottom: -6%
     }
     .first-main-img {
+        z-index: -1;
         width: 680px;
-    }
-    .second-main-img {
-        position: absolute;
-        right: 2%;
-        top: 55%;
-    }
-    .second-main-img {
-        width: 250px;
     }
     .mobile-img {
         display: none;
