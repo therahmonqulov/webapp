@@ -300,7 +300,7 @@ submitForm.addEventListener('submit', async (e) => {
     sessionStorage.setItem('reloadAfterThankYou', 'true');
 
     // Thank-you sahifasiga o'tish
-    window.location.href = "./thank-you/index.html";
+    window.location.href = "thank-you.html";
 
   } catch (error) {
     alert("❌ Ma'lumotlarni yuborishda xatolik yuz berdi. Iltimos, qayta urinib ko'ring.\nXatolik: " + error.message);
