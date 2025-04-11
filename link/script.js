@@ -240,7 +240,7 @@ showForm.style.display = "none";
 // Ismni tekshirish
 function validateName() {
   const nameValue = inputName.value.trim();
-  const nameRegex = /^[A-Za-zÀ-ÿ'-]{2,}$/; // Kamida 2 ta harf va faqat harflar bo‘lishi kerak
+  const nameRegex = /^[A-Za-zÀ-ÿ-]{2,}$/; // Kamida 2 ta harf va faqat harflar bo‘lishi kerak
 
   if (!nameRegex.test(nameValue)) {
     nameError.textContent = "❌ Ism faqat harflardan iborat bo‘lishi va kamida 2 ta harf bo‘lishi kerak!";
